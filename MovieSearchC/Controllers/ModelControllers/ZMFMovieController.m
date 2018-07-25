@@ -35,7 +35,7 @@
 }
 
 // MARK: - Methods
-- (void)retrieveMovies:(NSString *)searchText completion:(void (^)(NSArray<ZMFMovie *> * _Nonnull))completion
+- (void)retrieveMovies:(NSString *)searchText completion:(void (^)(NSArray<ZMFMovie *> *movies))completion
 {
     NSURLComponents *urlComponents = [NSURLComponents componentsWithURL:[self baseURL] resolvingAgainstBaseURL:true];
     NSURLQueryItem *apiKeyQuery = [NSURLQueryItem queryItemWithName:@"api_key" value:@"c5c1f4910df19b60d4b5657cf2225704"];

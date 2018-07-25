@@ -15,6 +15,8 @@
 		B623EDC72108156F0003E359 /* ZMFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = B623EDC62108156F0003E359 /* ZMFMovie.m */; };
 		B623EDCA210819170003E359 /* ZMFMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = B623EDC9210819170003E359 /* ZMFMovieController.m */; };
 		B623EDCD21081EBB0003E359 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623EDCC21081EBB0003E359 /* MovieTableViewCell.swift */; };
+		B623EDCF21081F380003E359 /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623EDCE21081F380003E359 /* MoviesListTableViewController.swift */; };
+		B623EDD121081F480003E359 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623EDD021081F480003E359 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B623EDC9210819170003E359 /* ZMFMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMFMovieController.m; sourceTree = "<group>"; };
 		B623EDCB21081EBB0003E359 /* MovieSearchC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieSearchC-Bridging-Header.h"; sourceTree = "<group>"; };
 		B623EDCC21081EBB0003E359 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		B623EDCE21081F380003E359 /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
+		B623EDD021081F480003E359 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		B623EDC02108110D0003E359 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B623EDCE21081F380003E359 /* MoviesListTableViewController.swift */,
+				B623EDD021081F480003E359 /* MovieDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 				B623EDCA210819170003E359 /* ZMFMovieController.m in Sources */,
 				B623EDC72108156F0003E359 /* ZMFMovie.m in Sources */,
 				B623EDB9210811020003E359 /* main.m in Sources */,
+				B623EDD121081F480003E359 /* MovieDetailViewController.swift in Sources */,
+				B623EDCF21081F380003E359 /* MoviesListTableViewController.swift in Sources */,
 				B623EDAB210811010003E359 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
