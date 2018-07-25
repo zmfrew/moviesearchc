@@ -13,6 +13,7 @@
 		B623EDB6210811020003E359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B623EDB4210811020003E359 /* LaunchScreen.storyboard */; };
 		B623EDB9210811020003E359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B623EDB8210811020003E359 /* main.m */; };
 		B623EDC72108156F0003E359 /* ZMFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = B623EDC62108156F0003E359 /* ZMFMovie.m */; };
+		B623EDCA210819170003E359 /* ZMFMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = B623EDC9210819170003E359 /* ZMFMovieController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B623EDB8210811020003E359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B623EDC52108156F0003E359 /* ZMFMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMFMovie.h; sourceTree = "<group>"; };
 		B623EDC62108156F0003E359 /* ZMFMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMFMovie.m; sourceTree = "<group>"; };
+		B623EDC8210819170003E359 /* ZMFMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMFMovieController.h; sourceTree = "<group>"; };
+		B623EDC9210819170003E359 /* ZMFMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMFMovieController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		B623EDC1210811130003E359 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B623EDC8210819170003E359 /* ZMFMovieController.h */,
+				B623EDC9210819170003E359 /* ZMFMovieController.m */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B623EDCA210819170003E359 /* ZMFMovieController.m in Sources */,
 				B623EDC72108156F0003E359 /* ZMFMovie.m in Sources */,
 				B623EDB9210811020003E359 /* main.m in Sources */,
 				B623EDAB210811010003E359 /* AppDelegate.m in Sources */,
